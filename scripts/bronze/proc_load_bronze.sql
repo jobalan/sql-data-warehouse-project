@@ -1,4 +1,12 @@
-
+/*
+============================================================
+Stored Procedure: Load Bronze Layer (Source -> Bronze)
+============================================================
+Script Purpose:
+  This script creates table in the 'bronze' schema, dropping existing tables if they already exist.
+Run this script to re-define the DDL srtucture of 'bronze' table
+============================================================
+*/
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze  AS 
 BEGIN
